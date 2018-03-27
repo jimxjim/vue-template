@@ -71,6 +71,7 @@ export const createMutations = (types) => {
           Vue.set(state, type.processingKey, false);
           break;
         default:
+          /* eslint-disable no-console */
           console.error('Please check the types!');
           break;
       }

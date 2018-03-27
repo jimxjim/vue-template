@@ -43,6 +43,7 @@ const sendRequest = (options) => {
 /* globals Request:true */
 
 export default Request = ({ commit, dispatch, state }, type, options, cbs) => {
+  // cbs: 回調,為一物件 { processing, success, failure }
   if (cbs && cbs.processing) {
     cbs.processing();
   } else {

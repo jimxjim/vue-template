@@ -1,4 +1,3 @@
-import Vue from 'vue';
 import isNil from 'lodash/isNil';
 
 const LOGIN_INFO = 'loginInfo';
@@ -7,7 +6,7 @@ const TICKER_SMS = 'tickerSMS';
 const TICKER_EMAIL = 'tickerEmail';
 
 function getter(id) {
-  const data = Vue.localStorage.get(id);
+  const data = localStorage.getItem(id);
 
   if (isNil(data) || data === 'undefined') return {};
 
@@ -15,8 +14,7 @@ function getter(id) {
 }
 
 function setter(id, data) {
-  Vue.localStorage.set(id, JSON.stringify(data));
-
+  localStorage.setItem(id, JSON.stringify(data));
   return true;
 }
 export function getLoginInfo() {
