@@ -33,13 +33,13 @@
     <section class="description-container">
       <h2>档案放置</h2>
       <span>一般元件放在 src/components下</span>
-      <span>頁面放在 src/containers下</span>
-      <h3>其他位置：(相關文檔)</h3>
-      <span>圖檔：src/assets</span>
-      <span>API Request請求：src/api</span>
+      <span>页面放在 src/containers下</span>
+      <h3>其他位置：(相关文档)</h3>
+      <span>图档：src/assets</span>
+      <span>API Request请求：src/api</span>
       <span>路由 vue router：src/router <a href="https://router.vuejs.org/zh-cn/">vue-router</a></span>
-      <span>狀態管理 vuex：src/store <a href="https://vuex.vuejs.org/zh-cn/">vuex</a> <router-link to="/vuex">简易说明</router-link></span>
-      <span>多語系 vue i18n：src/i18n <a href="https://kazupon.github.io/vue-i18n/en/">vue-i18n</a></span>
+      <span>状态管理 vuex：src/store <a href="https://vuex.vuejs.org/zh-cn/">vuex</a> <router-link to="/vuex">简易说明</router-link></span>
+      <span>多语系 vue i18n：src/i18n <a href="https://kazupon.github.io/vue-i18n/en/">vue-i18n</a></span>
     </section>
   </div>
 </template>
